@@ -22,23 +22,26 @@ nav button a {
     border-radius: 5px;
 }
 
-
+/* hero style */
 #hero{
-    height: 800px;
     background-image: url("../assets/Hero-bg.png");
-    background-size: cover;
     background-position:center;
+    background-size: cover;
+    
+
+}
+.hero-content{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 26px 2210x 44px;
+    justify-content: center;
 }
-.hero-content{
-    width: 685px;  
+.hero-pic{
+    margin-top: 50px;
 }
 .title{
     font-family: azeret mono;
-    font-weight: 800;
+    font-weight: 800px;
     font-size: 30px;
     text-align: center;
 }
@@ -56,6 +59,53 @@ nav button a {
     background-color: rgb(13, 19, 33); 
     border: none;
 }
-.btn-container{
+
+/* main style */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* shared style  */
+.banner{
+    margin-top: 60px;
+}
+.section-title{
+    font-weight: 800;
+    font-size: 52px;
+    color: #0D1321;
+}
+.section-description{
+    font-weight: 400px;
+    font-size: 26px;
+    color: #0D1321;
+    margin-bottom: 15px;
+}
+/* section style  */
+.section{
+    border-radius: 10px;
     text-align: center;
+    padding: 130px 150px;
+}
+.banner{
+    display: flex;
+   justify-content: space-between;
+    /* margin: 48px 47px ; */
+}
+.banner-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.banner-1{
+    width: 50%;
+    float: start;
+}
+.banner-2{
+    width: 50%;
+}
+.bann-btn{
+    font-size: 20px;
+    padding: 5px;
+}
+.div{
+    display: flex;
 }
